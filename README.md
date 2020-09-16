@@ -1,19 +1,30 @@
-# Parcel 2 Solid Starter
+# Solid type game
 
-Great DX + performances out of the box
+A simple type game with no purpose other than type words.
+This game is inspired by [this game](https://github.com/kentcdodds/typing-for-kids).
+
+It was done it live on stream and you can catch the replay [here](https://www.twitch.tv/videos/742662382).
+
+[Demo here](https://type.amoutonbrady.dev)
 
 ## Usage
 
 ```bash
-# Clone
-$ npx degit amoutonbrady/parcel2-solid-ts-starter
-
 # Install
-$ npm install # yarn install / pnpm install
+$ yarn
 
 # Dev
-$ npm run dev
+$ yarn dev
 
 # Build
-$ npm run build
+$ yarn build
 ```
+
+## Technologies used
+
+* [solid](https://github.com/ryansolid/solid)
+* [parcel 2](https://github.com/parcel-bundler)
+* [animejs](https://animejs.com/) and [animista](https://animista.net/)
+* [unique names generator](https://www.npmjs.com/package/unique-names-generator)
+* [yarn 2](https://github.com/yarnpkg/berry)
+* [netlify](https://netlify.com)
